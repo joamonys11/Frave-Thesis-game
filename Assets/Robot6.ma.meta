@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 1aa76db78d9ec55489315572a59f8d5a
+timeCreated: 1457543359
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: polySurface1
+    100002: polySurface2
+    100004: Robot4:polySurface100
+    100006: Robot4:polySurface101
+    100008: Robot4:polySurface102
+    100010: Robot4:polySurface103
+    100012: Robot4:polySurface104
+    100014: Robot4:polySurface105
+    100016: Robot4:polySurface106
+    100018: Robot4:polySurface107
+    100020: Robot4:polySurface108
+    100022: Robot4:polySurface90
+    100024: Robot4:polySurface92
+    100026: Robot4:polySurface94
+    100028: Robot4:polySurface98
+    100030: Robot4:Robot3_3_edit:Cube2
+    100032: Robot4:transform76
+    100034: Robot4:transform77
+    100036: Robot4:transform78
+    100038: Robot4:transform79
+    100040: Robot4:transform80
+    100042: Robot4:transform81
+    100044: Robot4:transform82
+    100046: //RootNode
+    100048: transform1
+    400000: polySurface1
+    400002: polySurface2
+    400004: Robot4:polySurface100
+    400006: Robot4:polySurface101
+    400008: Robot4:polySurface102
+    400010: Robot4:polySurface103
+    400012: Robot4:polySurface104
+    400014: Robot4:polySurface105
+    400016: Robot4:polySurface106
+    400018: Robot4:polySurface107
+    400020: Robot4:polySurface108
+    400022: Robot4:polySurface90
+    400024: Robot4:polySurface92
+    400026: Robot4:polySurface94
+    400028: Robot4:polySurface98
+    400030: Robot4:Robot3_3_edit:Cube2
+    400032: Robot4:transform76
+    400034: Robot4:transform77
+    400036: Robot4:transform78
+    400038: Robot4:transform79
+    400040: Robot4:transform80
+    400042: Robot4:transform81
+    400044: Robot4:transform82
+    400046: //RootNode
+    400048: transform1
+    2300000: polySurface1
+    2300002: polySurface2
+    2300004: Robot4:polySurface100
+    2300006: Robot4:polySurface101
+    2300008: Robot4:polySurface102
+    2300010: Robot4:polySurface108
+    2300012: Robot4:polySurface98
+    3300000: polySurface1
+    3300002: polySurface2
+    3300004: Robot4:polySurface100
+    3300006: Robot4:polySurface101
+    3300008: Robot4:polySurface102
+    3300010: Robot4:polySurface108
+    3300012: Robot4:polySurface98
+    4300000: polySurface1
+    4300002: polySurface2
+    4300004: Robot4:polySurface98
+    4300006: Robot4:polySurface100
+    4300008: Robot4:polySurface101
+    4300010: Robot4:polySurface102
+    4300012: Robot4:polySurface108
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

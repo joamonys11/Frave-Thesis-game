@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C3008733-CF24-BDD2-BDE1-81D4258F4E37}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;S;CROSS_PLATFORM_INPUT;MOBILE_INPUTMPLE_ORIENTATION_SETTINGS;MOBILE_INPUT;VUFORIA_SAMPLE_ORIENTATION_SETTINGS;VUFORIA_ANDROID_SETTINGS</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Common\UIFramework\AboutScreenView.cs" />
+     <Compile Include="Assets\Common\UIFramework\AppManager.cs" />
+     <Compile Include="Assets\Common\UIFramework\ISampleAppUIElement.cs" />
+     <Compile Include="Assets\Common\UIFramework\ISampleAppUIEventHandler.cs" />
+     <Compile Include="Assets\Common\UIFramework\ISampleAppUIView.cs" />
+     <Compile Include="Assets\Common\UIFramework\InputController.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUIBox.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUIButton.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUICheckButton.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUIConstants.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUILabel.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUILayout.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUIRadioButton.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleAppUIRect.cs" />
+     <Compile Include="Assets\Common\UIFramework\SampleInitErrorHandler.cs" />
+     <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
+     <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
+     <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
+     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
+     <Compile Include="Assets\PorglezompPyroclastics\ExplosionMat.cs" />
+     <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+     <Compile Include="Assets\Scripts\CameraDeviceMenu.cs" />
+     <Compile Include="Assets\Scripts\CityTrack.cs" />
+     <Compile Include="Assets\Scripts\Defend.cs" />
+     <Compile Include="Assets\Scripts\ErrorMsg.cs" />
+     <Compile Include="Assets\Scripts\Finger_Move.cs" />
+     <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Moveoffset.cs" />
+     <Compile Include="Assets\Scripts\ObjectTargetUIEventHandler.cs" />
+     <Compile Include="Assets\Scripts\ObjectTargetUIView.cs" />
+     <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Turret_Canon1.cs" />
+     <Compile Include="Assets\Scripts\Turret_Canon2.cs" />
+     <Compile Include="Assets\Scripts\Turret_Canon3.cs" />
+     <Compile Include="Assets\Scripts\Turret_Canon4.cs" />
+     <Compile Include="Assets\Scripts\Turret_VirtualButton.cs" />
+     <Compile Include="Assets\Scripts\backtotarget.cs" />
+     <Compile Include="Assets\Scripts\barier.cs" />
+     <Compile Include="Assets\Scripts\bariershow.cs" />
+     <Compile Include="Assets\Scripts\bomp.cs" />
+     <Compile Include="Assets\Scripts\bompspawn.cs" />
+     <Compile Include="Assets\Scripts\bot.cs" />
+     <Compile Include="Assets\Scripts\botai.cs" />
+     <Compile Include="Assets\Scripts\bullet.cs" />
+     <Compile Include="Assets\Scripts\bulletplay2.cs" />
+     <Compile Include="Assets\Scripts\bulletplay3.cs" />
+     <Compile Include="Assets\Scripts\bulletplay4.cs" />
+     <Compile Include="Assets\Scripts\bulletplay5.cs" />
+     <Compile Include="Assets\Scripts\bulletplay6.cs" />
+     <Compile Include="Assets\Scripts\bulletplusspawn.cs" />
+     <Compile Include="Assets\Scripts\bullettplay1.cs" />
+     <Compile Include="Assets\Scripts\bullettran.cs" />
+     <Compile Include="Assets\Scripts\bullfull.cs" />
+     <Compile Include="Assets\Scripts\bulltertran.cs" />
+     <Compile Include="Assets\Scripts\bulltetgo.cs" />
+     <Compile Include="Assets\Scripts\bunklespn.cs" />
+     <Compile Include="Assets\Scripts\cameraCtrl.cs" />
+     <Compile Include="Assets\Scripts\canonturet1.cs" />
+     <Compile Include="Assets\Scripts\canonturet2.cs" />
+     <Compile Include="Assets\Scripts\canonturet3.cs" />
+     <Compile Include="Assets\Scripts\canonturet4.cs" />
+     <Compile Include="Assets\Scripts\changeMaterial.cs" />
+     <Compile Include="Assets\Scripts\checkturret.cs" />
+     <Compile Include="Assets\Scripts\cityplane.cs" />
+     <Compile Include="Assets\Scripts\clonetrap.cs" />
+     <Compile Include="Assets\Scripts\control.cs" />
+     <Compile Include="Assets\Scripts\controlcamtest.cs" />
+     <Compile Include="Assets\Scripts\controller.cs" />
+     <Compile Include="Assets\Scripts\creatfreeze.cs" />
+     <Compile Include="Assets\Scripts\defend1_track.cs" />
+     <Compile Include="Assets\Scripts\defend2track.cs" />
+     <Compile Include="Assets\Scripts\defend3track.cs" />
+     <Compile Include="Assets\Scripts\defend4track.cs" />
+     <Compile Include="Assets\Scripts\destoyrtank.cs" />
+     <Compile Include="Assets\Scripts\detailtank.cs" />
+     <Compile Include="Assets\Scripts\detectactive.cs" />
+     <Compile Include="Assets\Scripts\drag.cs" />
+     <Compile Include="Assets\Scripts\dsself.cs" />
+     <Compile Include="Assets\Scripts\enableobs.cs" />
+     <Compile Include="Assets\Scripts\enemy.cs" />
+     <Compile Include="Assets\Scripts\freez.cs" />
+     <Compile Include="Assets\Scripts\freezespawn.cs" />
+     <Compile Include="Assets\Scripts\freeztrap.cs" />
+     <Compile Include="Assets\Scripts\frezzeitem.cs" />
+     <Compile Include="Assets\Scripts\grid.cs" />
+     <Compile Include="Assets\Scripts\gunsetui.cs" />
+     <Compile Include="Assets\Scripts\hard_spawntank.cs" />
+     <Compile Include="Assets\Scripts\hard_tank.cs" />
+     <Compile Include="Assets\Scripts\hardbull.cs" />
+     <Compile Include="Assets\Scripts\hardtank.cs" />
+     <Compile Include="Assets\Scripts\heavy_spawntank.cs" />
+     <Compile Include="Assets\Scripts\heavybull.cs" />
+     <Compile Include="Assets\Scripts\heavytank.cs" />
+     <Compile Include="Assets\Scripts\hitraycast.cs" />
+     <Compile Include="Assets\Scripts\hpbar.cs" />
+     <Compile Include="Assets\Scripts\hphardtank.cs" />
+     <Compile Include="Assets\Scripts\hppoint.cs" />
+     <Compile Include="Assets\Scripts\hptext.cs" />
+     <Compile Include="Assets\Scripts\iron.cs" />
+     <Compile Include="Assets\Scripts\irontrap.cs" />
+     <Compile Include="Assets\Scripts\itemmanage.cs" />
+     <Compile Include="Assets\Scripts\level.cs" />
+     <Compile Include="Assets\Scripts\lisget.cs" />
+     <Compile Include="Assets\Scripts\menumanage.cs" />
+     <Compile Include="Assets\Scripts\metal_tankspn.cs" />
+     <Compile Include="Assets\Scripts\missile.cs" />
+     <Compile Include="Assets\Scripts\missilescript.cs" />
+     <Compile Include="Assets\Scripts\model.cs" />
+     <Compile Include="Assets\Scripts\moveTexture.cs" />
+     <Compile Include="Assets\Scripts\namedetect.cs" />
+     <Compile Include="Assets\Scripts\namestage.cs" />
+     <Compile Include="Assets\Scripts\norbull.cs" />
+     <Compile Include="Assets\Scripts\normal_tankspawn.cs" />
+     <Compile Include="Assets\Scripts\normalhp.cs" />
+     <Compile Include="Assets\Scripts\normaltank.cs" />
+     <Compile Include="Assets\Scripts\offend1track.cs" />
+     <Compile Include="Assets\Scripts\offend2track.cs" />
+     <Compile Include="Assets\Scripts\offend3track.cs" />
+     <Compile Include="Assets\Scripts\offend4track.cs" />
+     <Compile Include="Assets\Scripts\oneplaywave.cs" />
+     <Compile Include="Assets\Scripts\protecitemspawn.cs" />
+     <Compile Include="Assets\Scripts\r1.cs" />
+     <Compile Include="Assets\Scripts\r1bull.cs" />
+     <Compile Include="Assets\Scripts\r1bull1.cs" />
+     <Compile Include="Assets\Scripts\r1bull2.cs" />
+     <Compile Include="Assets\Scripts\r1bull3.cs" />
+     <Compile Include="Assets\Scripts\r1bull4.cs" />
+     <Compile Include="Assets\Scripts\r1bull5.cs" />
+     <Compile Include="Assets\Scripts\r1spn2.cs" />
+     <Compile Include="Assets\Scripts\r1spn3.cs" />
+     <Compile Include="Assets\Scripts\r1spn4.cs" />
+     <Compile Include="Assets\Scripts\r1spn5.cs" />
+     <Compile Include="Assets\Scripts\r1spn6.cs" />
+     <Compile Include="Assets\Scripts\r2.cs" />
+     <Compile Include="Assets\Scripts\r3.cs" />
+     <Compile Include="Assets\Scripts\r4.cs" />
+     <Compile Include="Assets\Scripts\r5.cs" />
+     <Compile Include="Assets\Scripts\r6.cs" />
+     <Compile Include="Assets\Scripts\scene.cs" />
+     <Compile Include="Assets\Scripts\sentpos.cs" />
+     <Compile Include="Assets\Scripts\settown.cs" />
+     <Compile Include="Assets\Scripts\shipcontroller.cs" />
+     <Compile Include="Assets\Scripts\shipcontroller1.cs" />
+     <Compile Include="Assets\Scripts\shipcontroller2.cs" />
+     <Compile Include="Assets\Scripts\shipcontroller3.cs" />
+     <Compile Include="Assets\Scripts\shipcontroller4.cs" />
+     <Compile Include="Assets\Scripts\shootr1.cs" />
+     <Compile Include="Assets\Scripts\shootr2.cs" />
+     <Compile Include="Assets\Scripts\shootr3.cs" />
+     <Compile Include="Assets\Scripts\shootr4.cs" />
+     <Compile Include="Assets\Scripts\shootr5.cs" />
+     <Compile Include="Assets\Scripts\shootr6.cs" />
+     <Compile Include="Assets\Scripts\slowitem.cs" />
+     <Compile Include="Assets\Scripts\soft_tankspawn.cs" />
+     <Compile Include="Assets\Scripts\softbull.cs" />
+     <Compile Include="Assets\Scripts\softtank.cs" />
+     <Compile Include="Assets\Scripts\spawbull_hardtank.cs" />
+     <Compile Include="Assets\Scripts\spawbull_normal.cs" />
+     <Compile Include="Assets\Scripts\spawbull_soft.cs" />
+     <Compile Include="Assets\Scripts\spawnbull_heavy.cs" />
+     <Compile Include="Assets\Scripts\spawnbullet.cs" />
+     <Compile Include="Assets\Scripts\spawndefend1.cs" />
+     <Compile Include="Assets\Scripts\spawndefend2.cs" />
+     <Compile Include="Assets\Scripts\spawndefend3.cs" />
+     <Compile Include="Assets\Scripts\spawner_tank.cs" />
+     <Compile Include="Assets\Scripts\spawngun2.cs" />
+     <Compile Include="Assets\Scripts\spawngun3.cs" />
+     <Compile Include="Assets\Scripts\spawngun4.cs" />
+     <Compile Include="Assets\Scripts\spawngun5.cs" />
+     <Compile Include="Assets\Scripts\spawngun6.cs" />
+     <Compile Include="Assets\Scripts\spawnhpitem.cs" />
+     <Compile Include="Assets\Scripts\spawnitem.cs" />
+     <Compile Include="Assets\Scripts\stage1.cs" />
+     <Compile Include="Assets\Scripts\stage10.cs" />
+     <Compile Include="Assets\Scripts\stage11.cs" />
+     <Compile Include="Assets\Scripts\stage12.cs" />
+     <Compile Include="Assets\Scripts\stage13.cs" />
+     <Compile Include="Assets\Scripts\stage14.cs" />
+     <Compile Include="Assets\Scripts\stage15.cs" />
+     <Compile Include="Assets\Scripts\stage16.cs" />
+     <Compile Include="Assets\Scripts\stage17.cs" />
+     <Compile Include="Assets\Scripts\stage18.cs" />
+     <Compile Include="Assets\Scripts\stage19.cs" />
+     <Compile Include="Assets\Scripts\stage2.cs" />
+     <Compile Include="Assets\Scripts\stage20.cs" />
+     <Compile Include="Assets\Scripts\stage21.cs" />
+     <Compile Include="Assets\Scripts\stage22.cs" />
+     <Compile Include="Assets\Scripts\stage23.cs" />
+     <Compile Include="Assets\Scripts\stage24.cs" />
+     <Compile Include="Assets\Scripts\stage25.cs" />
+     <Compile Include="Assets\Scripts\stage26.cs" />
+     <Compile Include="Assets\Scripts\stage27.cs" />
+     <Compile Include="Assets\Scripts\stage28.cs" />
+     <Compile Include="Assets\Scripts\stage29.cs" />
+     <Compile Include="Assets\Scripts\stage3.cs" />
+     <Compile Include="Assets\Scripts\stage30.cs" />
+     <Compile Include="Assets\Scripts\stage31.cs" />
+     <Compile Include="Assets\Scripts\stage32.cs" />
+     <Compile Include="Assets\Scripts\stage33.cs" />
+     <Compile Include="Assets\Scripts\stage34.cs" />
+     <Compile Include="Assets\Scripts\stage35.cs" />
+     <Compile Include="Assets\Scripts\stage36.cs" />
+     <Compile Include="Assets\Scripts\stage37.cs" />
+     <Compile Include="Assets\Scripts\stage38.cs" />
+     <Compile Include="Assets\Scripts\stage39.cs" />
+     <Compile Include="Assets\Scripts\stage4.cs" />
+     <Compile Include="Assets\Scripts\stage40.cs" />
+     <Compile Include="Assets\Scripts\stage5.cs" />
+     <Compile Include="Assets\Scripts\stage6.cs" />
+     <Compile Include="Assets\Scripts\stage7.cs" />
+     <Compile Include="Assets\Scripts\stage8.cs" />
+     <Compile Include="Assets\Scripts\stage9.cs" />
+     <Compile Include="Assets\Scripts\stageUI.cs" />
+     <Compile Include="Assets\Scripts\stagecontrol.cs" />
+     <Compile Include="Assets\Scripts\swith.cs" />
+     <Compile Include="Assets\Scripts\swithturret.cs" />
+     <Compile Include="Assets\Scripts\tank1.cs" />
+     <Compile Include="Assets\Scripts\tankspawner.cs" />
+     <Compile Include="Assets\Scripts\target.cs" />
+     <Compile Include="Assets\Scripts\targetdestination.cs" />
+     <Compile Include="Assets\Scripts\timer.cs" />
+     <Compile Include="Assets\Scripts\timespawn.cs" />
+     <Compile Include="Assets\Scripts\trapclone.cs" />
+     <Compile Include="Assets\Scripts\triggerbull.cs" />
+     <Compile Include="Assets\Scripts\turetbulltran.cs" />
+     <Compile Include="Assets\Scripts\turretdefend1.cs" />
+     <Compile Include="Assets\Scripts\turretdefend2.cs" />
+     <Compile Include="Assets\Scripts\turretdefend3.cs" />
+     <Compile Include="Assets\Scripts\turretplace.cs" />
+     <Compile Include="Assets\Scripts\turretspawn.cs" />
+     <Compile Include="Assets\Scripts\turretspwn.cs" />
+     <Compile Include="Assets\Scripts\uicontroller.cs" />
+     <Compile Include="Assets\Scripts\w1.cs" />
+     <Compile Include="Assets\Scripts\w10.cs" />
+     <Compile Include="Assets\Scripts\w11.cs" />
+     <Compile Include="Assets\Scripts\w12.cs" />
+     <Compile Include="Assets\Scripts\w13.cs" />
+     <Compile Include="Assets\Scripts\w14.cs" />
+     <Compile Include="Assets\Scripts\w15.cs" />
+     <Compile Include="Assets\Scripts\w16.cs" />
+     <Compile Include="Assets\Scripts\w17.cs" />
+     <Compile Include="Assets\Scripts\w18.cs" />
+     <Compile Include="Assets\Scripts\w19.cs" />
+     <Compile Include="Assets\Scripts\w2.cs" />
+     <Compile Include="Assets\Scripts\w20.cs" />
+     <Compile Include="Assets\Scripts\w21.cs" />
+     <Compile Include="Assets\Scripts\w22.cs" />
+     <Compile Include="Assets\Scripts\w23.cs" />
+     <Compile Include="Assets\Scripts\w24.cs" />
+     <Compile Include="Assets\Scripts\w25.cs" />
+     <Compile Include="Assets\Scripts\w26.cs" />
+     <Compile Include="Assets\Scripts\w27.cs" />
+     <Compile Include="Assets\Scripts\w28.cs" />
+     <Compile Include="Assets\Scripts\w29.cs" />
+     <Compile Include="Assets\Scripts\w3.cs" />
+     <Compile Include="Assets\Scripts\w30.cs" />
+     <Compile Include="Assets\Scripts\w4.cs" />
+     <Compile Include="Assets\Scripts\w5.cs" />
+     <Compile Include="Assets\Scripts\w6.cs" />
+     <Compile Include="Assets\Scripts\w7.cs" />
+     <Compile Include="Assets\Scripts\w8.cs" />
+     <Compile Include="Assets\Scripts\w9.cs" />
+     <Compile Include="Assets\Scripts\wallgatecreate.cs" />
+     <Compile Include="Assets\Scripts\wavestagemanage.cs" />
+     <Compile Include="Assets\Scripts\wheel.cs" />
+     <Compile Include="Assets\Tazo_fx\Script\ActiveSelf.cs" />
+     <Compile Include="Assets\Tazo_fx\Script\AnimateTiledTextureOnTrail.cs" />
+     <Compile Include="Assets\Tazo_fx\Script\BillBoard.cs" />
+     <Compile Include="Assets\Tazo_fx\Script\DestroySelf.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DatabaseLoadBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SmartTerrainTrackerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoTextureRenderer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_DemoControl.cs" />
+     <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_RotateObject.cs" />
+     <Compile Include="Assets\_MK\_MKGlowSystem\_Internal\MKGlowStartup.cs" />
+     <Compile Include="Assets\alarmenemy.cs" />
+     <Compile Include="Assets\animoffset.cs" />
+     <Compile Include="Assets\barierdes.cs" />
+     <Compile Include="Assets\bloddshow.cs" />
+     <Compile Include="Assets\bompdes.cs" />
+     <Compile Include="Assets\bompdes1.cs" />
+     <Compile Include="Assets\bullet2ui.cs" />
+     <Compile Include="Assets\bullet3ui.cs" />
+     <Compile Include="Assets\bullet4ui.cs" />
+     <Compile Include="Assets\bullet5ui.cs" />
+     <Compile Include="Assets\bullet6ui.cs" />
+     <Compile Include="Assets\buttoncontrol.cs" />
+     <Compile Include="Assets\efxflame.cs" />
+     <Compile Include="Assets\enemybornefx.cs" />
+     <Compile Include="Assets\freezedes.cs" />
+     <Compile Include="Assets\freezepar.cs" />
+     <Compile Include="Assets\freezeshow.cs" />
+     <Compile Include="Assets\gun2des.cs" />
+     <Compile Include="Assets\gun3des.cs" />
+     <Compile Include="Assets\gun4des.cs" />
+     <Compile Include="Assets\gun5des.cs" />
+     <Compile Include="Assets\gun6des.cs" />
+     <Compile Include="Assets\hpdes.cs" />
+     <Compile Include="Assets\itemborndes.cs" />
+     <Compile Include="Assets\itempanel.cs" />
+     <Compile Include="Assets\lockanim.cs" />
+     <Compile Include="Assets\scenemanager.cs" />
+     <Compile Include="Assets\scenescroll.cs" />
+     <Compile Include="Assets\shotpar.cs" />
+     <Compile Include="Assets\soundcontrol.cs" />
+     <Compile Include="Assets\tardesefx.cs" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-Diffuse.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Glossy.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Glossy.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-TransparentCutout.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-ParallaxSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-Transparent.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumped.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\UnityStandardCoreMKGlowSystem.cginc" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Emission\MK_Emission-Diffuse.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowCompose.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowBlur.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\MK_Standard.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveSoft.shader" />
+     <None Include="Assets\PorglezompPyroclastics\Explosion.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveMultiply.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Diffuse.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
+     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+     <None Include="Assets\textures\shadernew\tower\wallpaper.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Toon\MK_Toon-Basic.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Sprites\MK_Sprite-Diffuse.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\marker.xml" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Glossy.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-ParallaxSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumped.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
+     <None Include="Assets\VolumeLight\Read Me\Read Me.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-Normal.shader" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Diffuse.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowFullScreenDownSample.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-PremultiplyBlend.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Blend.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowFastBlur.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumped.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Parallax.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Diffuse.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Multiply.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Parallax.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Parallax.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpRim.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveBlend.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Diffuse.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\MK_StandardSpecular.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseRim.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowRender.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpedNoLight.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumped.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Parallax.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec.shader" />
+     <None Include="Assets\VolumeLight\Shader\AdditiveMask.shader" />
+     <None Include="Assets\textures\shadernew\iglu.shader" />
+     <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumped.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>D:/work/thesis/DOING/fravecom/artest18.3.59/artest17.2.59.1/artest27.2.59/artest27.2.59/artest/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="MKGlowSystem">
+ <HintPath>D:/work/thesis/DOING/fravecom/artest18.3.59/artest17.2.59.1/artest27.2.59/artest27.2.59/artest/Assets/_MK/_MKGlowSystem/_Internal/MKGlowSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="MKGlowSystemHelpWindow">
+ <HintPath>D:/work/thesis/DOING/fravecom/artest18.3.59/artest17.2.59.1/artest27.2.59/artest27.2.59/artest/Assets/_MK/_MKGlowSystem/_Internal/MKGlowSystemHelpWindow.dll</HintPath>
+ </Reference>
+ <Reference Include="MKGlowSystemSceneView">
+ <HintPath>D:/work/thesis/DOING/fravecom/artest18.3.59/artest17.2.59.1/artest27.2.59/artest27.2.59/artest/Assets/_MK/_MKGlowSystem/_Internal/MKGlowSystemSceneView.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Program Files (joex322)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{6671FAD8-6E57-0F68-0679-D55B682AA799}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

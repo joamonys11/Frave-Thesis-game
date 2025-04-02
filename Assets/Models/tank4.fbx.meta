@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 43da0be2d206c654092531f11de99baa
+timeCreated: 1455929287
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tank__1_:group4
+    100004: tank__1_:pCylinder11
+    100006: tank__1_:pCylinder13
+    100008: tank__1_:pCylinder14
+    100010: tank__1_:pCylinder15
+    100012: tank__1_:pCylinder16
+    100014: tank__1_:pCylinder17
+    100016: tank__1_:pCylinder18
+    100018: tank__1_:pCylinder19
+    100020: tank__1_:pCylinder20
+    100022: tank__1_:polySurface1
+    100024: tank__1_:polySurface10
+    100026: tank__1_:polySurface2
+    100028: tank__1_:polySurface7
+    100030: tank__1_:polySurface8
+    400000: //RootNode
+    400002: tank__1_:group4
+    400004: tank__1_:pCylinder11
+    400006: tank__1_:pCylinder13
+    400008: tank__1_:pCylinder14
+    400010: tank__1_:pCylinder15
+    400012: tank__1_:pCylinder16
+    400014: tank__1_:pCylinder17
+    400016: tank__1_:pCylinder18
+    400018: tank__1_:pCylinder19
+    400020: tank__1_:pCylinder20
+    400022: tank__1_:polySurface1
+    400024: tank__1_:polySurface10
+    400026: tank__1_:polySurface2
+    400028: tank__1_:polySurface7
+    400030: tank__1_:polySurface8
+    2300000: tank__1_:pCylinder11
+    2300002: tank__1_:pCylinder13
+    2300004: tank__1_:pCylinder14
+    2300006: tank__1_:pCylinder15
+    2300008: tank__1_:pCylinder16
+    2300010: tank__1_:pCylinder17
+    2300012: tank__1_:pCylinder18
+    2300014: tank__1_:pCylinder19
+    2300016: tank__1_:pCylinder20
+    2300018: tank__1_:polySurface1
+    2300020: tank__1_:polySurface10
+    2300022: tank__1_:polySurface2
+    2300024: tank__1_:polySurface7
+    2300026: tank__1_:polySurface8
+    3300000: tank__1_:pCylinder11
+    3300002: tank__1_:pCylinder13
+    3300004: tank__1_:pCylinder14
+    3300006: tank__1_:pCylinder15
+    3300008: tank__1_:pCylinder16
+    3300010: tank__1_:pCylinder17
+    3300012: tank__1_:pCylinder18
+    3300014: tank__1_:pCylinder19
+    3300016: tank__1_:pCylinder20
+    3300018: tank__1_:polySurface1
+    3300020: tank__1_:polySurface10
+    3300022: tank__1_:polySurface2
+    3300024: tank__1_:polySurface7
+    3300026: tank__1_:polySurface8
+    4300000: tank__1_:polySurface1
+    4300002: tank__1_:polySurface2
+    4300004: tank__1_:polySurface7
+    4300006: tank__1_:polySurface8
+    4300008: tank__1_:pCylinder11
+    4300010: tank__1_:pCylinder13
+    4300012: tank__1_:pCylinder14
+    4300014: tank__1_:pCylinder15
+    4300016: tank__1_:pCylinder16
+    4300018: tank__1_:pCylinder17
+    4300020: tank__1_:pCylinder18
+    4300022: tank__1_:pCylinder19
+    4300024: tank__1_:pCylinder20
+    4300026: tank__1_:polySurface10
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
