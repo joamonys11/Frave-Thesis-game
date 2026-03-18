@@ -10,7 +10,6 @@ Download Here https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/
 -   **marker.jpg**
 
 - FRAVE 
-https://drive.google.com/file/d/1-P39b0Wb2uAaY2CqmyPQFQiKNY1CJvTj/view?usp=sharing
 
 ## Setup in Unity
 
