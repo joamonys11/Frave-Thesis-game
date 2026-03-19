@@ -9,9 +9,6 @@ from the repository:
 Download Here https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/view?usp=sharing
 -   **marker.jpg**
 
-- FRAVE
-https://drive.google.com/file/d/10oO-S48m0tHVAeW8QVhgrzgMyHY5zLwY/view?usp=sharing
-
 ## Setup in Unity
 
 1.  Extract **fravecom.zip**.
