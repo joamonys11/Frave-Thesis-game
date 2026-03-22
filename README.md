@@ -10,7 +10,8 @@ Download Here https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/
 -   **marker.jpg**
 
  ** Frave APK   ## Setup in Unity**
-https://drive.google.com/file/d/18a8Jti9rmlvCmsP0kOFFzd8I9lDhCjeG/view?usp=sharing
+https://drive.google.com/file/d/1ow-RRUlSV4qw98W_YDlEH7MDyZ8s41Qt/view?usp=sharing
+
 
 1.  Extract **fravecom.zip**.
 https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/view?usp=sharing
