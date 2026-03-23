@@ -12,6 +12,11 @@ Download Here https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/
  ** Frave APK   ## Setup in Unity**
 https://drive.google.com/file/d/1bJ1dFOGPp_F25upPMEeRxU1Qidcx-3DR/view?usp=sharing
 
+ ** Frave APK +Special Version No marker need test 
+ https://drive.google.com/file/d/1tbcd2OQyaCZxp4mHTsba7qbGTsN_02VW/view?usp=sharing
+ 
+
+
 1.  Extract **fravecom.zip**.
 https://drive.google.com/file/d/1MCtDT6X8QMe0Kfpn1MZMR9RQBqpYfyI9/view?usp=sharing
 2.  Open the project in **Unity Editor**.
